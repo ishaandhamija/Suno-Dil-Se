@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ishaandhamija.sunodilse.CheckListActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Your Artist Preferences :"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:id="@+id/rvList4">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_weight="1"
+        android:src="@mipmap/ic_launcher_next"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:id="@+id/next2"/>
+
+</LinearLayout>

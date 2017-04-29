@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ishaandhamija.sunodilse.SongPlayActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:id="@+id/songImage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ddi"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:layout_gravity="bottom"
+        android:background="#202020"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Song Name"
+            android:textSize="18sp"
+            android:id="@+id/songName"
+            android:textColor="#FFFF"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Song Artist"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:id="@+id/songArtist"
+            android:textColor="#FFFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:background="#202020"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:id="@+id/currTime"/>
+
+            <app.minimize.com.seek_bar_compat.SeekBarCompat
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                android:maxHeight="300sp"
+                app:progressColor="#33B5E5"
+                app:progressBackgroundColor="#000"
+                app:thumbColor="#33B5E5"
+                app:thumbAlpha="1"
+                android:id="@+id/seekbar"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"
+                android:text="05:10"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:id="@+id/endTime"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_shuffle1"
+            android:id="@+id/shuffle"
+            android:layout_marginRight="15dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_rewind1"
+            android:id="@+id/rewind"
+            android:layout_marginRight="25dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_pause4"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:id="@+id/play"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_forward1"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/forward"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_loop1"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/loop"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
