@@ -8,6 +8,4 @@ MediaPlayer, Socket Programming, Cursor and Recyclerview.
 
 ## ScreenShots
 
-<img src = "https://user-images.githubusercontent.com/14792027/27804970-725c1f38-604f-11e7-8c3c-f90377b1c359.jpg" width=300>
-<img src = "https://user-images.githubusercontent.com/14792027/27805010-a8a3cc44-604f-11e7-99e6-bf45db465406.jpg" width=300>
-<img src = "https://user-images.githubusercontent.com/14792027/27805027-be23a6a2-604f-11e7-9ed3-b9d9632544ee.jpg" width=300
+<img src = "https://user-images.githubusercontent.com/14792027/27804970-725c1f38-604f-11e7-8c3c-f90377b1c359.jpg" width=200>   <img src = "https://user-images.githubusercontent.com/14792027/27805010-a8a3cc44-604f-11e7-99e6-bf45db465406.jpg" width=200>   <img src = "https://user-images.githubusercontent.com/14792027/27805027-be23a6a2-604f-11e7-9ed3-b9d9632544ee.jpg" width=200>
